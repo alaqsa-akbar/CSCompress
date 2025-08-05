@@ -60,7 +60,7 @@ To run with default settings:
 python -m main
 ```
 
-To customize the run using arguments:
+To customize the run, you may pass optional arguments such as:
 ```bash
 python -m main --frequencies 0.01 0.1 1 10 100 --time 100 --fs 100 --noise_std 0.15 --n_channels 20 --subsample_ratio 0.1 --alpha 1e-4 --downsample_factor 4 --lpf_order 4 --lpf_cutoff_freq 10 --max_iter 1500 --chunk_size 500
 ```
